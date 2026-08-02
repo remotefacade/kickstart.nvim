@@ -1,5 +1,9 @@
 # kickstart.nvim
 
+## Notes to Self
+
+- Clone this to ~/.config/nvim/
+
 ## Introduction
 
 A starting point for Neovim that is:
