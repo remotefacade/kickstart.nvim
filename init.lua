@@ -155,6 +155,9 @@ vim.o.splitbelow = true
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
+vim.o.spell = true
+vim.o.spelllang = 'en_us'
+
 -- Preview substitutions live, as you type!
 vim.o.inccommand = 'split'
 
@@ -717,6 +720,7 @@ require('lazy').setup({
         lua = { 'stylua' },
         css = { 'prettierd' },
         html = { 'prettierd' },
+        bash = { 'prettierd' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
